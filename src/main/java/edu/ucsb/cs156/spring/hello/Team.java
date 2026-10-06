@@ -60,7 +60,7 @@ public class Team {
         this.members = members;
     }
 
-    /**
+/**
      * Check if a team is equal to another object
      * @param obj object to compare to
      * @return true if the object is a team with the same name and members
@@ -70,7 +70,7 @@ public class Team {
         if (obj == this) {
             return true;
         }
-        if (!(obj instanceof Team)) {
+        if (!(obj instanceof Team)) { 
             return false;
         }
         Team other = (Team) obj;
